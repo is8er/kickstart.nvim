@@ -160,6 +160,12 @@ vim.opt.cursorline = true
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
 
+-- インデント関連
+vim.opt.tabstop = 8 -- タブのサイズ
+vim.opt.shiftwidth = 4 -- インデントのサイズ
+vim.opt.softtabstop = -1 -- shiftwidthと同じサイズ
+vim.opt.expandtab = true -- インデントには空白を挿入する
+
 -- 特定の全角文字だけ全角表示(以下を参考に)
 -- https://github.com/rbtnn/vim-ambiwidth/blob/main/plugin/ambiwidth.vim
 vim.opt.ambw = 'single'
